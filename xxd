@@ -1,0 +1,3 @@
+#!bin/bash
+# A hex editor for the command line
+xxd filename | less
