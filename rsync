@@ -1,0 +1,4 @@
+#!bin/bash
+
+# Syncing a folder from a remote server to your host machine
+rsync -avz ubuntu@12.34.56.78:./folder .
