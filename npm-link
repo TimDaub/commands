@@ -1,0 +1,2 @@
+1. Do `npm link` in the project dir that you want to link
+2. Do `npm link <package_name>` in the project you want to locally link
