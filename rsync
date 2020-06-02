@@ -1,4 +1,11 @@
 #!bin/bash
 
 # Syncing a folder from a remote server to your host machine
+# To sync from your host machine to a remote server, just switch the args
 rsync -avz ubuntu@12.34.56.78:./folder .
+
+# If you have folders that you don't want to sync (e.g. node_modules), then use
+# the `--exclude` option, e.g.:
+rsync -avz ubuntu@12.34.56.78:./folder . --exclude "node_modules"
+# NOTE: Don't forget the quotes
+
