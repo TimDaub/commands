@@ -1,0 +1,16 @@
+#!bin/bash
+
+# To always use the correct user name, website and email when doing `npm init`,
+# a configuration may be necessary. Many parameters can be configuered using
+# `# `npm config`!
+# A nice tutorial can be found here: https://codeburst.io/setting-global-npm-defaults-for-quick-starting-new-projects-ed06ed22edb3
+
+# To see the current `npm config`, do:
+
+npm config ls -al
+
+# To set a specific npm config parameter, do:
+
+npm config set <key> <value> -g
+
+# Additionally, take a look at your ~/.npmrc.
