@@ -1,0 +1,4 @@
+#!bin/bash
+
+# To help debug the mDNSResponder, via: https://apple.stackexchange.com/a/303384
+(sleep 1 && sudo killall -INFO mDNSResponder &); log stream | grep mDNSResponder
