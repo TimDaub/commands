@@ -1,0 +1,9 @@
+#!bin/bash
+
+# This command is really handy when provisioning a remote machine with your
+# ssh identities. According to its man page, its a script that automatically
+# logs into the remote machine and adds an identity of the host machine to
+# the remote machine. More specifically on the remote to ~/.ssh/authorized_keys
+
+ssh-copy-id -i $HOME/.ssh/id_rsa.pub user@12.34.56.78
+
