@@ -12,5 +12,13 @@ npm config ls -al
 # To set a specific npm config parameter, do:
 
 npm config set <key> <value> -g
-
 # Additionally, take a look at your ~/.npmrc.
+
+# ---
+# npm installs packages by default using its "semver range operator" ^
+# In the past, it has lead to security vulnerabilities. To only allow npm to
+# define packages given their exact version, we can use the following command:
+
+npm config set save-exact true
+# Docs: https://docs.npmjs.com/misc/config#save-exact
+
