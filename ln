@@ -1,0 +1,10 @@
+#!bin/bash
+
+# Symbolic links are a great way to import directories and whiles without
+# copying them. Say you want to connect a front end and a back end, linking two
+# directory can come in handy. From the back end directory, do:
+
+ln -s -T "$(pwd)/../frontend/src" ./public
+
+# Mac users note that POSIX's ln doesn't feature a `-T` option. Downloading
+GNU' `ln` with homebrew can be an option.
