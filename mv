@@ -1,0 +1,13 @@
+#!bin/bash
+
+# Sometimes you want to move all files in a folder up:
+# - root
+#   - folder
+#     -> file.txt
+#     -> file2.txt
+#
+# In this example, I want all contents of `folder` in `root`, so `file.txt`
+# and `file2.txt`. I can use `mv`:
+
+mv /root/folder/* /root/
+
