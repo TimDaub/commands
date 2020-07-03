@@ -11,7 +11,7 @@ npm config ls -al
 
 # To set a specific npm config parameter, do:
 
-npm config set <key> <value> -g
+# npm config set <key> <value> -g
 # Additionally, take a look at your ~/.npmrc.
 
 # ---

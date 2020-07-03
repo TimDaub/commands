@@ -7,4 +7,4 @@
 ln -s -T "$(pwd)/../frontend/src" ./public
 
 # Mac users note that POSIX's ln doesn't feature a `-T` option. Downloading
-GNU' `ln` with homebrew can be an option.
+# GNU' `ln` with homebrew can be an option.
