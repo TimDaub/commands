@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # This command is really handy when provisioning a remote machine with your
 # ssh identities. According to its man page, its a script that automatically

@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # Syncing a folder from a remote server to your host machine
 # To sync from your host machine to a remote server, just switch the args

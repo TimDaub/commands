@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # Symbolic links are a great way to import directories and whiles without
 # copying them. Say you want to connect a front end and a back end, linking two

@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # Sometimes you want to move all files in a folder up:
 # - root

@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # There's cases where even `git reflog` can't help you anymore. E.g. when you've
 # `git reset --hard` some uncommitted changes. In this case, there may, however,

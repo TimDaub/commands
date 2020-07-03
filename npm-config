@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # To always use the correct user name, website and email when doing `npm init`,
 # a configuration may be necessary. Many parameters can be configuered using

@@ -1,1 +1,3 @@
+#!/bin/bash
+
 npm config set init.author.name "your name <your@email.org>"
