@@ -9,3 +9,7 @@ rsync -avz ubuntu@12.34.56.78:./folder .
 rsync -avz ubuntu@12.34.56.78:./folder . --exclude "node_modules"
 # NOTE: Don't forget the quotes
 
+# If you're managing symlinks on a machine and you simply want to copy its
+# contents to the respective other machine, you can use the `-lL` option
+rsync -avz -lL ubuntu@12.34.56.78:./folder . --exclude "node_modules"
+
