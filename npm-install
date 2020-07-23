@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# It may be useful to install npm packages from GitHub repositories.
+# When searching online on how to do that, many different suggestions show up.
+# A solution that works *with slashes in the branch name*, is the following:
+
+npm install --save "github:username/repo#branch/name"
+
+# Note that branch name is "branch/name" here (hence I imagine we need double
+# quotes...)
