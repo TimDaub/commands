@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# When checking the status of a systemd service, it's log may be truncated. To
+# remove it when doing a `systemctl status <service_name>`, use the option
+`--no-pager` and ´-l`.
+
+systemctl status name.service --no-pager -l
