@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# There's cases where you've set an alias but then decided that you don't want
+# it anymore. That's when `unalias` comes in handy
+
+alias hello="world"
+unalias hello
