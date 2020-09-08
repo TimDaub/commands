@@ -7,3 +7,14 @@
 git fsck --lost-found
 # Via: https://stackoverflow.com/a/6780036
 
+# Sometimes you commit private credentials to GitHub. To censor them, use the
+# following filter-branch
+git filter-branch --tree-filter \
+    "find . -name '*.js' -exec sed -i -e \'s/to-remove/replaced-with-this/g' {} \;"
+
+# To remove an entire file, replace PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA with
+# the file in your git repository source:
+# https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository
+git filter-branch --force --index-filter \
+    "git rm --cached --ignore-unmatch PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA" \
+    --prune-empty --tag-name-filter cat -- --all
