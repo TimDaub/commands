@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# for base64
+$ openssl rand -base64 12
+
+# and for hex
+openssl rand -hex 12
