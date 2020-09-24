@@ -4,4 +4,4 @@
 
 # To create a server listening on any address for port 8080 (e.g. can
 # receive HTTP traffic)
-$ netcat -vv -l -p 8080 -u
+$ netcat -l -p 8080
