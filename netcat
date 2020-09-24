@@ -1,0 +1,7 @@
+#!/bin/bash
+# brew install netcat
+# to get GNU version of netcat for Mac OS
+
+# To create a server listening on any address for port 8080 (e.g. can
+# receive HTTP traffic)
+$ netcat -vv -l -p 8080 -u
