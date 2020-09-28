@@ -1,0 +1,4 @@
+#!/bin/bash
+# If you want to forward a port on a forward machine, do this on your local 
+# machine
+ssh -L 9229:127.0.0.1:9229 user@my-server.com -N
