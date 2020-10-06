@@ -1,0 +1,6 @@
+#!/bin/bash
+# It can be really annoying if your servers are running another time
+# zone than you're in. To set them to a particular time zone, you can
+# use timedatectl
+
+sudo timedatectl set-timezone Europe/Berlin
