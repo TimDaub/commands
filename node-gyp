@@ -1,0 +1,3 @@
+# On Mac OS X, node-gyp often fails. This document is of great help when there's
+# problems with XCode:
+# https://github.com/nodejs/node-gyp/blob/master/macOS_Catalina.md
