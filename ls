@@ -4,3 +4,6 @@
 # `t` option allows it:
 ls -t
 
+# To show all file sizes in human readable units (e.g. MB, etc.)
+ls -lh
+
