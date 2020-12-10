@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# `tail -f` is great for checking a file's end and having a stream of appended
+# data. But for some logs, you want to move from the "present" deep into the
+# past. For this, `less` that starts at the end of a file is great.
+less +G file.log
