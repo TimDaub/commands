@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Get elapsed seconds
+start=$(date +%s); while sleep 1; do curr=$(date +%s);echo $((curr-start)); done
