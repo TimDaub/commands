@@ -1,0 +1,4 @@
+#!/bin/bash
+# In case you have many haters and they're annoying you. One way to silence them
+# is:
+$ haters > /dev/null
