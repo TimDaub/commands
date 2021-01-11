@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# If you want to lookup a domain's DNS records, dig is a great program to do 
+# so quickly on a shell
+$ dig google.com
