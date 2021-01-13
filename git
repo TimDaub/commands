@@ -28,3 +28,9 @@ git filter-branch --force --index-filter \
 # alias. To ignore both `package-lock.json` and `yarn.lock` with `git cdiff`,
 # do:
 git config --global alias.cdiff 'diff -- ":!package-lock.json" ":!yarn.lock"'
+
+# Recently, GitHub changed the default branch name from "master" to "main". To
+# also initialize a main branch with `git init`, it can be configured as
+# follows:
+
+git config --global init.defaultBranch main
