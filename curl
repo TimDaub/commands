@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# If you want to download a file into your current folder
+curl -LO <uri:file>
