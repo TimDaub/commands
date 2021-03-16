@@ -34,3 +34,6 @@ git config --global alias.cdiff 'diff -- ":!package-lock.json" ":!yarn.lock"'
 # follows:
 
 git config --global init.defaultBranch main
+
+# To generate a tag simply do:
+git tag <tag_name>
