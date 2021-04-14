@@ -1,4 +1,12 @@
 #!/bin/bash
-# If you want to forward a port on a forward machine, do this on your local 
+# If you want to forward a port on a forward machine, do this on your local
 # machine
 ssh -L 9229:127.0.0.1:9229 user@my-server.com -N
+
+# Sometimes you have different ssh keys for different hosts. In that case it
+# can be slightly annoying to manually having to specify the host's respective
+# ssh private key. To automate this, you can add the following to .ssh/config:
+
+# Host hostname
+#   User username
+#   IdentityFile ~/.ssh/somekey
