@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Sometimes a server's SSH identity changes and now you you get
+# WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! from ssh. But you still trust
+# server.
+# To update .ssh/known_hosts, use the following command:
+ssh-keygen -R <hostname>
