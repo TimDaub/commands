@@ -1,3 +1,5 @@
-# On Mac OS X, node-gyp often fails. This document is of great help when there's
-# problems with XCode:
-# https://github.com/nodejs/node-gyp/blob/master/macOS_Catalina.md
+# On Mac OS X, node-gyp often fails. Here's a list of documents that helped
+# me fix issues in a reasonable time frame:
+#
+# Some time earlier, see git history: https://github.com/nodejs/node-gyp/blob/master/macOS_Catalina.md
+# From May 20, 2021 on Mac OS Catalina: https://medium.com/flawless-app-stories/gyp-no-xcode-or-clt-version-detected-macos-catalina-anansewaa-38b536389e8d
