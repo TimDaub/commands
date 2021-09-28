@@ -37,3 +37,9 @@ git config --global init.defaultBranch main
 
 # To generate a tag simply do:
 git tag <tag_name>
+
+# To delete a LOCAL tag
+git tag --delete tagname
+
+# and to delete a REMOTE tag
+git push --delete origin tagname
