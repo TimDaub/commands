@@ -2,3 +2,8 @@
 # You can use `ag` to search for files too. The following syntax works when you
 # want to start from the current directory:
 ag -G "filename" .
+
+# If you want to exclude a directory from being searched, use the --ignore-dir
+# option
+
+ag searchterm --ignore-dir abc
