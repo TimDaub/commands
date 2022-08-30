@@ -13,3 +13,10 @@ rsync -avz ubuntu@12.34.56.78:./folder . --exclude "node_modules"
 # contents to the respective other machine, you can use the `-lL` option
 rsync -avz -lL ubuntu@12.34.56.78:./folder . --exclude "node_modules"
 
+# To sync a file in the background from your machine to a remote server that
+# you can only access using a password, you can use sshpass (which you'll have
+# to install first) ssh -p23 is probably optional and relates to Hetzner's
+# storage box.
+sshpass -p "yourpassword" \
+  rsync -avz --progress -e 'ssh -p23' yourfile user@example.de:./yourfile > \
+  logs &
