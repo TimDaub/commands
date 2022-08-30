@@ -1,0 +1,2 @@
+# get the number of lines a file has
+wc -l file
