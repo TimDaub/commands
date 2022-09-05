@@ -1,0 +1,4 @@
+# lsblk can be useful for getting an overview of the disk your system has.
+# And it can be configured such that it shows custom output for the columns
+# you care about using the `-o` option and a comma separated list
+lsblk -o NAME,SIZE,TYPE,FSTYPE,FSUSED,MOUNTPOINT
